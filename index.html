@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anand Mishra</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icons/favicon.png">
+
+
+<!--
+  ============================================================
+  HOW TO EDIT THIS FILE
+  ============================================================
+  Everything content-wise lives in the PROJECTS array near the
+  top of the <script> at the bottom of this file. Each entry:
+
+    {
+      id, x, y,            -> position of the desktop icon (px)
+      icon: 'url',          -> small thumbnail image on the desktop
+      title, subtitle,      -> shown in the window header
+      desc: 'text...',      -> the paragraph(s) of body copy
+      type: 'A > B > C',    -> the "Details:" breadcrumb
+      preview: 'url'         -> big image inside "Preview:"
+    }
+
+  Swap any icon/preview url for your own image file. Add or
+  remove objects from the array to add/remove icons — nothing
+  else needs to change, the desktop and windows build themselves.
+
+  Desktop background image + dock are near the top of the CSS
+  and in the .dock block in the HTML below.
+  ============================================================
+-->
+
+
+</head>
+<body>
+
+<div class="desktop" id="desktop">
+  <!-- icons injected by JS -->
+</div>
+
+<!-- ================= DOCK — edit hrefs / remove items freely ================= -->
+<div class="dock">
+
+   <div class="dock-item" id="ps-app">
+    <img src="icons/adobe-photoshop-icon.png" alt="Photoshop">
+    <span>Photoshop</span>
+</div>
+
+<div class="dock-item" id="ai-app">
+    <img src="icons/ill-8.png" alt="Illustrator">
+    <span>Illustrator</span>
+</div>
+
+<!-- <div class="dock-item" id="coffee-app">
+    <img src="Images/icons/coffee.png" alt="Coffee">
+    <span>Coffee</span>
+</div> -->
+
+<div class="dock-item" id="notes-app">
+    <img src="icons/note-8.png" alt="About Me">
+    <span>About Me</span>
+</div>
+
+<div class="dock-item" id="sketch-app">
+    <img src="icons/draw-8.png" alt="Sketch Pad">
+    <span>Sketch</span>
+</div>
+
+<!-- <div class="dock-item" id="gallery-app">
+    <img src="icons/gal-8.png" alt="Gallery">
+    <span>Workspace</span>
+</div> -->
+
+<a class="dock-item social" href="https://instagram.com/anands.mess" target="_blank">
+    <img src="icons/inst-8.png" alt="Instagram">
+    <span>Instagram</span>
+</a>
+
+<a class="dock-item social" href="https://www.behance.net/monilmishra" target="_blank">
+    <img src="icons/beh-8.png" alt="Behance">
+    <span>Behance</span>
+</a>
+
+<a class="dock-item social" href="https://www.linkedin.com/in/anandmishr07/" target="_blank">
+    <img src="icons/link-8.png" alt="LinkedIn">
+    <span>LinkedIn</span>
+</a>
+
+<a class="dock-item social" href="mailto:monilmishra4@gmail.com">
+    <img src="icons/mail-8.png" alt="Mail">
+    <span>Message Me</span>
+</a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
