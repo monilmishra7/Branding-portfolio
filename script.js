@@ -1,65 +1,65 @@
 const PROJECTS = [
-  { id:'frilnce1', x:80,  y:120, icon:'Images/infumonjoicon.png',
+  { id:'frilnce1', x:80,  y:120, icon:'Images/influmonjoicon.webp',
     title:'Influmojo', subtitle:'Marketing',
     desc:'The wordmark combines clarity with playfulness to reflect a tech-driven, collaboration-first brand. Clean, geometric typography communicates modernity and professionalism, while the creative twist in the “ojo” turns the into eyes—a metaphor for insight, awareness, and connection.',
     type:'Branding',
-    preview:['Images/influ1.png',
-        'Images/influ2.png' ]},
+    preview:['Images/influ1.webp',
+        'Images/influ2.webp' ]},
 
-  { id:'frilnce2', x:210, y:80, icon:'Images/groovi.png',
+  { id:'frilnce2', x:210, y:80, icon:'Images/groovi.webp',
     title:'Groovi', subtitle:'Chocolate',
     desc:'The Groovi logo captures intimacy, connection, and modern sensuality through a refined, elegant wordmark. Its defining feature is the ligature between the “o” and “v,” symbolizing the harmony of feminine warmth and masculine stability. The graceful “g” and confident type treatment add fluidity and sophistication, positioning Groovi as bold yet approachable. More than a visual mark, it reflects the brand’s promise of helping couples feel closer, confident, and connected.',
     type:'Branding and Packaging',
-    preview:['Images/groovi1.png',
-    'Images/groovi2.png'] },
+    preview:['Images/groovi1.webp',
+    'Images/groovi2.webp'] },
 
-  { id:'odor1', x:360, y:150, icon:'Images/kremsi.png',
+  { id:'odor1', x:360, y:150, icon:'Images/kremsi.webp',
     title:'Kremsi', subtitle:'Drink',
     desc:'Kremsi is a fruity, kefir-based prebiotic drink made with live cultures and zero sugar crafted to taste like fun, not medicine. It comes in bold, feel-good flavors like Lemon, Cherry, Watermelon, and Orange, each one tangy, creamy, and secretly gut-friendly. It’s fermented, fizzy-ish, and ridiculously easy to love.',
     type:'Brandingg and Packaging',
-    preview:['Images/kremsi1.jpg','Images/kremsi2.jpg','Images/kremsi3.jpg'] },
+    preview:['Images/kremsi1.webp','Images/kremsi2.webp','Images/kremsi3.webp'] },
 
-  { id:'creatorindia1', x:500, y:90, icon:'Images/acb.png',
+  { id:'creatorindia1', x:500, y:90, icon:'Images/acb.webp',
     title:'Absolute Coffee Brewers', subtitle:'Cafe',
     desc:'The Absolute Coffee Brewers logo captures the café’s bold, playful energy. The chunky, rounded letterforms make the brand approachable and welcoming, signaling a space that’s lively, unpretentious, and perfect for everyday hangoutss. The initials—A, C, and B—are more than letters; they act as playful characters, bringing personality and a sense of community to the brand. “Coffee” remains at the heart of the logo, while “Brewers” emphasizes the creative, social, and energetic spirit of the space.',
     type:'Branding',
-    preview:['Images/acb1.png','Images/acb2.png','Images/acb3.png'] },
+    preview:['Images/acb1.webp','Images/acb2.webp','Images/acb3.webp'] },
 
-  { id:'splitbite1', x:640, y:160, icon:'Images/sb.png',
+  { id:'splitbite1', x:640, y:160, icon:'Images/sb.webp',
     title:'Sourcebay', subtitle:'Logistics',
     desc:'The Sourcebay logo reflects efficiency, movement, and reliability—key qualities of modern supply and logistics. The clean, bold wordmark creates a strong and approachable identity, while the angled “b” introduces a sense of motion, symbolizing the dynamic flow of sourcing and distribution. The vibrant red color conveys energy and urgency, reinforcing the brand’s focus on fast, smart, and connected supply solutions.',
     type:'Branding',
-    preview:['Images/sb1.png','Images/sb2.png','Images/sb3.png'] },
+    preview:['Images/sb1.webp','Images/sb2.webp','Images/sb3.webp'] },
 
-  { id:'gutfeeling1', x:120, y:320, icon:'Images/super.png',
+  { id:'gutfeeling1', x:120, y:320, icon:'Images/super.webp',
     title:'Supherbman', subtitle:'Smoking Acessories',
     desc:'Supherbman exists because the brand needed a face that doesn’t take itself too seriously, even though the products are genuinely premium. He’s a superhero, but the kind who looks like he reads the manuals, labels his drawers, and still somehow saves the day anyway. The nerdy grin, the clean mask, the flying pose — it all leans into a fun, slightly goofy personality that makes the brand instantly likeable.',
     type:'Branding and Packaging',
-    preview:['Images/super1.jpg','Images/super2.jpg','Images/super3.jpg'] },
+    preview:['Images/super1.webp','Images/super2.webp','Images/super3.webp'] },
 
-  { id:'cornkaka1', x:280, y:380, icon:'Images/sun.png',
+  { id:'cornkaka1', x:280, y:380, icon:'Images/sun.webp',
     title:'Sunbase', subtitle:'Sunscreen',
     desc:'Sunbase is a premium sunscreen made for people who want protection without compromise. Lightweight, fast-absorbing, and invisible on every skin tone, it keeps your skin safe, hydrated, and comfortable all day long. Because SPF should feel as good as it works.',
     type:'Branding and Packaging',
-    preview:['Images/sun1.png','Images/sun2.png','Images/sun3.png'] },
+    preview:['Images/sun1.webp','Images/sun2.webp','Images/sun3.webp'] },
 
-  { id:'snackmap1', x:440, y:330, icon:'Images/subk.png',
+  { id:'snackmap1', x:440, y:330, icon:'Images/subk.webp',
     title:'Subkulture', subtitle:'Skincare',
     desc:'Subkulture is a modern skincare brand built on the belief that great skin starts with honest formulations and intentional design. Combining science-backed ingredients with a refined aesthetic, it creates products that are effective, uncomplicated, and made for everyday confidence.',
     type:'Branding and Packaging',
-    preview:['Images/subk4.png','Images/subk1.png','Images/subk2.png','Images/subk3.png'] },
+    preview:['Images/subk4.webp','Images/subk1.webp','Images/subk2.webp','Images/subk3.webp'] },
 
-  { id:'mnm1', x:600, y:300, icon:'Images/nocaf.png',
+  { id:'mnm1', x:600, y:300, icon:'Images/nocaf.webp',
     title:'Nocaff', subtitle:'Beverage',
     desc:'NOCAFF is a modern functional drink brand built for every hour of the day. Clean ingredients, purposeful formulations, and a bold visual identity come together to help you perform at your best, whenever the moment calls for it.',
     type:'Branding and Packaging',
-    preview:['Images/nocaf1.jpg','Images/nocaf2.jpg','Images/nocaf3.jpg']},
+    preview:['Images/nocaf1.webp','Images/nocaf2.webp','Images/nocaf3.webp']},
 
-  { id:'odor2', x:760, y:230, icon:'Images/her.png',
+  { id:'odor2', x:760, y:230, icon:'Images/her.webp',
     title:'Herkin', subtitle:'Beauty',
     desc:'Herkin is built on the belief that exceptional design and exceptional products should work together. By blending functionality with a distinctive visual identity, it delivers experiences that are intuitive, premium, and memorable. Every element is crafted to communicate quality, inspire confidence, and create meaningful everyday interactions.',
     type:'Branding and Packaging',
-    preview:['Images/her1.jpg','Images/her2.png','Images/her3.png'] },
+    preview:['Images/her1.webp','Images/her2.webp','Images/her3.webp'] },
 ];
 
 const desktop = document.getElementById('desktop');
@@ -481,7 +481,7 @@ About Me
 
 <div class="profile">
 
-<img src="Images/hero-photo.jpg">
+<img src="Images/hero-photo.webp">
 
 <h2>Anand Mishra</h2>
 
